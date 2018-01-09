@@ -14,5 +14,7 @@
     <None Include="event.html" />
     <None Include="LinkElement.html" />
     <None Include="LinkElement.css" />
+    <None Include="Debug.html" />
+    <None Include="ControlDOM.html" />
   </ItemGroup>
 </Project>

@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+    
+    <head>
+        <meta charset="utf-8" />
+        <title>3-10 DOMの操作</title>
+
+        <script>
+
+            //要素追加
+            function insertItem() {
+
+                var container = document.getElementById("container");
+                var item = document.createElement("li");   //(1)    リストの作成
+
+                item.textContent = "hello";     //(2)   表示内容の代入
+                
+                container.appendChild(item);    //(3)   リストに追加
+                
+            }
+
+            //要素削除
+            function removeItem() {
+
+                var container = document.getElementById("container");
+                var item = container.lastChild;     //(4)   リストの末尾の要素を取得
+
+                if (item)
+                {
+                    container.removeChild(item);    //(5)   要素があれば削除
+                }
+                
+            }
+
+        </script>
+
+    </head>
+
+    <body>
+
+        <button onclick="insertItem()">
+            insert
+        </button>
+
+        <button onclick="removeItem()">
+            delete
+        </button>
+
+        <ol id="container"></ol>
+
+    </body>
+    
+</html>
