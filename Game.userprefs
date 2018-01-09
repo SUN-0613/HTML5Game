@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{8C0692D5-6ADA-427B-A59F-8EDE7D13515B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Game/index.html">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Game/event.html">
     <Files>
-      <File FileName="Game/index.html" Line="13" Column="14" />
+      <File FileName="Game/index.html" Line="2" Column="17" />
+      <File FileName="Game/event.html" Line="30" Column="14" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Default" />
