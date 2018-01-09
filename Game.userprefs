@@ -1,8 +1,7 @@
 ﻿<Properties StartupConfiguration="{8C0692D5-6ADA-427B-A59F-8EDE7D13515B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Game/ControlDOM.html">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Game/ControlDOM2.html">
     <Files>
-      <File FileName="Game/Debug.html" Line="38" Column="9" />
-      <File FileName="Game/ControlDOM.html" Line="9" Column="5" />
+      <File FileName="Game/ControlDOM2.html" Line="3" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Default" />

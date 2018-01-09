@@ -16,5 +16,6 @@
     <None Include="LinkElement.css" />
     <None Include="Debug.html" />
     <None Include="ControlDOM.html" />
+    <None Include="ControlDOM2.html" />
   </ItemGroup>
 </Project>
