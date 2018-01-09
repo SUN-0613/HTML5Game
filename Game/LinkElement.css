@@ -1,0 +1,24 @@
+﻿/* 全体 */
+* {
+    font-size: 12px;
+}
+
+/* 見出し */
+h1 {
+    font-size: 22px;
+}
+
+/* id="comment" */
+#comment {
+    color: green;
+}
+
+/* class="even" */
+.even {
+    color: purple;
+}
+
+/* class="odd" */
+.odd {
+    color: red;
+}

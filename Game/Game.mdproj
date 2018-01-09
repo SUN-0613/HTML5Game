@@ -12,5 +12,7 @@
   <ItemGroup>
     <None Include="index.html" />
     <None Include="event.html" />
+    <None Include="LinkElement.html" />
+    <None Include="LinkElement.css" />
   </ItemGroup>
 </Project>
