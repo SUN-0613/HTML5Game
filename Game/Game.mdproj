@@ -17,5 +17,7 @@
     <None Include="Debug.html" />
     <None Include="ControlDOM.html" />
     <None Include="ControlDOM2.html" />
+    <None Include="ControlDOM3.html" />
+    <None Include="ControlDOM3.css" />
   </ItemGroup>
 </Project>

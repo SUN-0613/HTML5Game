@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+
+    <!--
+        考え方
+         1.○×を記入するため、３行３列のテーブルを作成
+         2.CSSにて、テーブルへ罫線を表示、高さと幅を100pxの正方形にする
+         3.CSSにて、テーブルを真ん中に表示するように調整
+         4.Scriptを使用するため、テーブルセルにID名を付与
+           法則性を持った名称とする
+         5.Scriptにて、checkMark()を作成
+           記入するセルがわかるように引数に行番号、列番号を付与
+         6.checkMark()にて、クリックされたセルに"○"を記入するプログラム作成
+         7.checkMark()にて、記入済みのセルには何もしないようにif文追加
+         8.手番(先手、後手)を記憶するカウンタをグローバル変数に宣言
+         9.checkMark()にて、カウンタ数値にて"○"または"×"を記入するようにプログラム修正
+        10.表示を初期化するためのボタンを追加
+        11.CSSにて、ボタンを真ん中に表示するように調整
+        12.行・列番号の最大値をグローバル変数に宣言(変更しやすいようにわざとグローバル)
+        13.Scriptにて、initMark()を作成
+           for文を使用し、全てのセルに""を記入するプログラムを作成
+    -->
+    <head>
+        <meta charset="utf-8" />
+        <title>3-10 演習 ○×ゲーム</title>
+
+        <link rel="stylesheet" href="ControlDOM3.css" />
+
+        <script>
+
+            var iCounter = 0;   //0:先手、1:後手
+            var iMaxRow = 2;    //最大値:行番号
+            var iMaxColumn = 2; //最大値:列番号
+
+            //○×記入
+            //iRow:テーブル行番号
+            //iColumn:テーブル列番号
+            function checkMark(iRow, iColumn)
+            {
+
+                var sName = "R" + iRow + "C" + iColumn; //行番号と列番号からID取得
+                var sStr = document.getElementById(sName).textContent   //対象IDの記入内容チェック
+
+                //記入されていないなら○×記入
+                if (sStr == "")
+                {
+                    //0:先手=>○、1:後手=>×
+                    if (iCounter++ == 0)    //判定後、カウンタ更新
+                    {
+                        document.getElementById(sName).textContent = "○";
+                    }
+                    else
+                    {
+                        document.getElementById(sName).textContent = "×";
+                        iCounter = 0;   //カウンタリセット
+                    }
+
+                }
+
+            }
+
+            //初期化
+            function initMark()
+            {
+
+                var iRow = 0;       //ループ変数:行番号
+                var iColumn = 0;    //ループ変数:列番号 
+                var sName = "";     //対象ID
+
+                for (iRow = 0; iRow <= iMaxRow; iRow++)
+                {
+                    for (iColumn = 0; iColumn <= iMaxColumn; iColumn++)
+                    {
+                        
+                        sName = "R" + iRow + "C" + iColumn; //対象ID取得
+
+                        //表示・カウンタの初期化
+                        document.getElementById(sName).textContent = "";
+                        iCounter = 0;
+                        
+                    }
+                }
+
+
+            }
+
+        </script>
+
+    </head>
+
+    <body>
+
+        <!-- ID名は下記ルールとする
+             R[n]:Row:行
+             C[n]:Column:列
+             [n]:行列番号
+        -->
+        <table>
+            <tr>
+                <td id="R0C0" onclick="checkMark(0,0)"></td>
+                <td id="R0C1" onclick="checkMark(0,1)"></td>
+                <td id="R0C2" onclick="checkMark(0,2)"></td>
+           </tr>
+            <tr>
+                <td id="R1C0" onclick="checkMark(1,0)"></td>
+                <td id="R1C1" onclick="checkMark(1,1)"></td>
+                <td id="R1C2" onclick="checkMark(1,2)"></td>
+            </tr>
+            <tr>
+                <td id="R2C0" onclick="checkMark(2,0)"></td>
+                <td id="R2C1" onclick="checkMark(2,1)"></td>
+                <td id="R2C2" onclick="checkMark(2,2)"></td>
+          </tr>
+       </table>
+
+        <div>
+            <button onclick="initMark()">
+                最初から
+            </button>
+        </div>
+
+    </body>
+
+</html>
