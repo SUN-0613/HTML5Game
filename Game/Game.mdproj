@@ -19,5 +19,8 @@
     <None Include="ControlDOM2.html" />
     <None Include="ControlDOM3.html" />
     <None Include="ControlDOM3.css" />
+    <None Include="ufo.html" />
+    <None Include="ufo.css" />
+    <None Include="ufo.js" />
   </ItemGroup>
 </Project>

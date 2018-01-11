@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{8C0692D5-6ADA-427B-A59F-8EDE7D13515B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Game/ControlDOM3.html">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Game/ufo.html">
     <Files>
-      <File FileName="Game/ControlDOM3.html" Line="97" Column="14" />
-      <File FileName="Game/ControlDOM3.css" Line="27" Column="9" />
+      <File FileName="Game/ufo.html" Line="18" Column="1" />
+      <File FileName="Game/ufo.css" Line="7" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Default" />

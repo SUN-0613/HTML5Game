@@ -1,0 +1,7 @@
+﻿div {
+    position: absolute; /*絶対位置*/
+    width: 60px;
+    height: 25px;
+    color: green;
+    top: 50px;
+}
