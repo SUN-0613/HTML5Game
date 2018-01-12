@@ -5,3 +5,11 @@
     color: green;
     top: 50px;
 }
+
+#ufo2 {
+    position: absolute; /*絶対位置*/
+    width: 60px;
+    height: 25px;
+    color: blue;
+    top: 100px
+}

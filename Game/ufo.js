@@ -1,11 +1,17 @@
 ﻿var ufo;                //オブジェクト
 var bInitFlg = true;    //初期実行処理FLG
 
+var timerID;            //★タイマ処理
+var iTimerCounter = 0;  //★タイマ処理：カウンタ
+var bPlus = true;       //★タイマ処理：X座標増加FLG
+var iUfo2XPos = 100;    //★タイマ処理：X座標
+
 //キー押下処理を追加
 function init()
 {
     window.addEventListener("keydown", keydown);                //キー押下イベント実装
     ufo = new UFO(document.getElementById("ufo"), 100, 50);     //オブジェクト宣言
+    timerID = setInterval(timer_Tick, 1000);                     //★タイマ開始
 }
 
 //キー押下処理
@@ -82,4 +88,51 @@ function UFO(_elem, _xpos, _ypos)
         this.elem.style.top = this.ypos + "px";
     }
 
+}
+
+//★タイマ処理
+function timer_Tick()
+{
+
+    //対象オブジェクト取得
+    var ufo2 = document.getElementById("ufo2");
+    var iAdd;
+    var iXPos;
+
+    //一定回数超過すると左右移動を反転
+    if (++iTimerCounter >= 10)
+    {
+        
+        if (bPlus == true)
+        {
+            bPlus = false;
+        } 
+        else
+        {
+            bPlus = true;
+        }
+        
+        iTimerCounter = 0;
+
+    }
+
+    //移動量の設定
+    if (bPlus == true)
+    {
+        iAdd = 10;
+    }
+    else
+    {
+        iAdd = -10;
+    }
+
+    //対象オブジェクトの移動
+    iUfo2XPos += iAdd;
+    ufo2.style.left = iUfo2XPos + "px";
+}
+
+//★タイマ停止
+function timer_Stop()
+{
+    clearInterval(timerID);
 }
