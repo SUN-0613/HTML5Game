@@ -28,7 +28,6 @@ function init()
 
     /* 4-2 描画の方法
        線を３本引き、三角形を作成するイメージを描画
-    */
 
     //1つ目
     ctx.beginPath();
@@ -55,5 +54,24 @@ function init()
     ctx.lineTo(550, 50);    //頂点1
     ctx.lineTo(600, 100);   //頂点2
     ctx.fill();             //始点と頂点2を連結し、塗りつぶす
+
+    */
+
+    /* 4-2-2 矩形の描画
+       矩形描画パターン
+    */
+    ctx.strokeStyle = "#FF0000";
+    ctx.fillStyle = "#00FFFF";
+    ctx.lineWidth = 5;
+
+    //1つ目:塗りつぶし
+    ctx.fillRect(100, 30, 80, 50);
+    
+    //2つ目:枠線のみ
+    ctx.strokeRect(200, 30, 80, 50);
+
+    //3つ目:塗りつぶした内の一部をクリア
+    ctx.fillRect(300, 30, 80, 50);
+    ctx.clearRect(320, 50, 50, 20);
 
 }
