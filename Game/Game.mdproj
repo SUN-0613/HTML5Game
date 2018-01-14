@@ -27,5 +27,8 @@
     <None Include="Ground.html" />
     <None Include="Ground.css" />
     <None Include="Ground.js" />
+    <None Include="Packman.html" />
+    <None Include="Packman.css" />
+    <None Include="Packman.js" />
   </ItemGroup>
 </Project>
