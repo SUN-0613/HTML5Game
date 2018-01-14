@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{8C0692D5-6ADA-427B-A59F-8EDE7D13515B}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Game/Packman.html">
     <Files>
-      <File FileName="Game/Packman.html" Line="7" Column="39" />
+      <File FileName="Game/Packman.html" Line="9" Column="27" />
       <File FileName="Game/Packman.css" Line="2" Column="31" />
     </Files>
   </MonoDevelop.Ide.Workbench>
