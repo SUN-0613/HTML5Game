@@ -24,5 +24,8 @@
     <None Include="ufo.js" />
     <None Include="Canvas.html" />
     <None Include="Canvas.js" />
+    <None Include="Ground.html" />
+    <None Include="Ground.css" />
+    <None Include="Ground.js" />
   </ItemGroup>
 </Project>
