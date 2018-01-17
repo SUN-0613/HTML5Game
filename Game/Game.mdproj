@@ -30,5 +30,7 @@
     <None Include="Packman.html" />
     <None Include="Packman.css" />
     <None Include="Packman.js" />
+    <None Include="Font.html" />
+    <None Include="Font.js" />
   </ItemGroup>
 </Project>
