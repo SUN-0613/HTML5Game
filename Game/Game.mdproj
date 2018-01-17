@@ -32,5 +32,11 @@
     <None Include="Packman.js" />
     <None Include="Font.html" />
     <None Include="Font.js" />
+    <None Include="Pic_DTB.png" />
+    <None Include="Picture.js" />
+    <None Include="Picture.html" />
+    <None Include="Picture.css" />
+    <None Include="Clock.html" />
+    <None Include="Clock.js" />
   </ItemGroup>
 </Project>
