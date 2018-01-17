@@ -38,5 +38,7 @@
     <None Include="Picture.css" />
     <None Include="Clock.html" />
     <None Include="Clock.js" />
+    <None Include="Square.html" />
+    <None Include="Square.js" />
   </ItemGroup>
 </Project>
