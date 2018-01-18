@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{8C0692D5-6ADA-427B-A59F-8EDE7D13515B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Game/Clock.html">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Game/SnakeBite.css">
     <Files>
-      <File FileName="Game/Clock.html" Line="9" Column="24" />
+      <File FileName="Game/SnakeBite.html" Line="9" Column="54" />
+      <File FileName="Game/SnakeBite.css" Line="2" Column="16" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Default" />

@@ -40,5 +40,8 @@
     <None Include="Clock.js" />
     <None Include="Square.html" />
     <None Include="Square.js" />
+    <None Include="SnakeBite.js" />
+    <None Include="SnakeBite.html" />
+    <None Include="SnakeBite.css" />
   </ItemGroup>
 </Project>
