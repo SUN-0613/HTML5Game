@@ -43,5 +43,10 @@
     <None Include="SnakeBite.js" />
     <None Include="SnakeBite.html" />
     <None Include="SnakeBite.css" />
+    <None Include="bang.png" />
+    <None Include="ship.png" />
+    <None Include="Cave.html" />
+    <None Include="Cave.js" />
+    <None Include="Cave.css" />
   </ItemGroup>
 </Project>
