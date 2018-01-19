@@ -1,8 +1,7 @@
 ﻿<Properties StartupConfiguration="{8C0692D5-6ADA-427B-A59F-8EDE7D13515B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Game/MineLand.css">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Game/Blocks.html">
     <Files>
-      <File FileName="Game/MineLand.html" Line="7" Column="57" />
-      <File FileName="Game/MineLand.css" Line="9" Column="2" />
+      <File FileName="Game/Blocks.html" Line="5" Column="16" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Default" />

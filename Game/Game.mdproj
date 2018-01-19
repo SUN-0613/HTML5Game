@@ -51,5 +51,7 @@
     <None Include="MineLand.html" />
     <None Include="MineLand.js" />
     <None Include="MineLand.css" />
+    <None Include="Blocks.js" />
+    <None Include="Blocks.html" />
   </ItemGroup>
 </Project>
