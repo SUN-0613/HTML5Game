@@ -48,5 +48,8 @@
     <None Include="Cave.html" />
     <None Include="Cave.js" />
     <None Include="Cave.css" />
+    <None Include="MineLand.html" />
+    <None Include="MineLand.js" />
+    <None Include="MineLand.css" />
   </ItemGroup>
 </Project>
